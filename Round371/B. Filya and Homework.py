@@ -1,6 +1,7 @@
 n = int(input())
 numbers = list(map(int, input().split()))
 
+
 def all_equals(numbers):
     start = numbers[0]
 
@@ -10,6 +11,7 @@ def all_equals(numbers):
         start = number
 
     return 1
+
 
 def check_numbers(numbers):
     number_one = -1
